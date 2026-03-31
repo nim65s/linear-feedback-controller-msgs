@@ -25,6 +25,7 @@ compute_project_args(PROJECT_ARGS LANGUAGES C CXX)
 project(${PROJECT_NAME} ${PROJECT_ARGS})
 
 find_package(ament_cmake REQUIRED)
+
 find_package(rosidl_default_generators REQUIRED)
 
 find_package(Eigen3 REQUIRED)

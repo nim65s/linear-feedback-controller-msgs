@@ -41,13 +41,11 @@
         "flake-parts": "flake-parts",
         "nix-ros-overlay": "nix-ros-overlay",
         "nixpkgs": [
-          "gazebros2nix",
           "flakoboros",
           "nix-ros-overlay",
           "nixpkgs"
         ],
         "systems": [
-          "gazebros2nix",
           "flakoboros",
           "nix-ros-overlay",
           "flake-utils",
@@ -56,15 +54,16 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1774947096,
-        "narHash": "sha256-raUE3Gva/EHe0ISwCB8+nzUfwZfyL38iBpnFjTRqLyk=",
+        "lastModified": 1774951477,
+        "narHash": "sha256-dTQER96E0gS4GjrvrzRfoalccksQKq1Av1WANT8eo9M=",
         "owner": "gepetto",
         "repo": "flakoboros",
-        "rev": "21ae913618528c145dd828a785108e1126a6e8bc",
+        "rev": "c3baee009bdfe1423cc11f65a85d7fee0c509579",
         "type": "github"
       },
       "original": {
         "owner": "gepetto",
+        "ref": "nixos-unstable",
         "repo": "flakoboros",
         "type": "github"
       }
@@ -76,7 +75,9 @@
           "flakoboros",
           "flake-parts"
         ],
-        "flakoboros": "flakoboros",
+        "flakoboros": [
+          "flakoboros"
+        ],
         "nix-ros-overlay": [
           "gazebros2nix",
           "flakoboros",
@@ -110,7 +111,8 @@
         "type": "github"
       },
       "original": {
-        "owner": "gepetto",
+        "owner": "nim65s",
+        "ref": "nixos-unstable",
         "repo": "gazebros2nix",
         "type": "github"
       }
@@ -222,10 +224,7 @@
           "gazebros2nix",
           "flake-parts"
         ],
-        "flakoboros": [
-          "gazebros2nix",
-          "flakoboros"
-        ],
+        "flakoboros": "flakoboros",
         "gazebros2nix": "gazebros2nix",
         "nixpkgs": [
           "gazebros2nix",
@@ -259,7 +258,6 @@
     "treefmt-nix": {
       "inputs": {
         "nixpkgs": [
-          "gazebros2nix",
           "flakoboros",
           "nixpkgs"
         ]
