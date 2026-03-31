@@ -6,7 +6,6 @@
     flakoboros.follows = "gazebros2nix/flakoboros";
     flake-parts.follows = "gazebros2nix/flake-parts";
     nixpkgs.follows = "gazebros2nix/nixpkgs";
-    nix-ros-overlay.follows = "gazebros2nix/nix-ros-overlay";
     systems.follows = "gazebros2nix/systems";
     treefmt-nix.follows = "gazebros2nix/treefmt-nix";
   };
